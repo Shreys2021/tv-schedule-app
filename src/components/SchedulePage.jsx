@@ -32,7 +32,6 @@ const SchedulePage = () => {
     return (
         <div className="bg-gradient-to-b from-gray-100 to-gray-300 min-h-screen py-10">
             <div className="container mx-auto px-6">
-                {/* Page Heading */}
                 <header className="text-center mb-12">
                     <h1 className="text-5xl font-extrabold text-gray-800 mb-4">
                         Current Television Schedule
@@ -42,7 +41,6 @@ const SchedulePage = () => {
                     </p>
                 </header>
 
-                {/* Schedule Grid */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                     {schedule.map((show) => (
                         <Link
@@ -68,7 +66,6 @@ const SchedulePage = () => {
                                 </div>
                             </div>
 
-                            {/* Hover Overlay */}
                             <div className="absolute inset-0 bg-black bg-opacity-30 group-hover:bg-opacity-50 transition duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
                                 <p className="text-white text-lg font-semibold">View Details</p>
                             </div>
