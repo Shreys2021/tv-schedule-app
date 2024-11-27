@@ -1,19 +1,27 @@
 <<<<<<< HEAD
-# Getting Started with Create React App
+# TV Schedule Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based web application that displays the current television schedule of programs airing in the US using the TVmaze API. Users can view the list of currently airing shows, and upon selecting a show, they can see its detailed information, including metadata such as genres, runtime, summary, and more.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+Home Page:
+Displays the schedule of TV programs currently airing in the US.
+Clean, responsive UI with a modern and aesthetic design using Tailwind CSS.
+Cards with hover effects for an interactive user experience.
+Detail Page:
+Displays detailed metadata about the selected TV show.
+Includes show's image, genres, runtime, summary, and schedule details.
+"Back to Schedule" button for seamless navigation.
+Responsive Design:
+Optimized for mobile, tablet, and desktop devices.
 
-### `npm start`
+### Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Frontend: React.js
+Styling: Tailwind CSS
+API Integration: TVmaze API
+Routing: React Router
 
 ### `npm test`
 
